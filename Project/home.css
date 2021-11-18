@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*navigation Bar*/
+
+ul{
+    margin: 0px;
+    padding: 0px;
+ 
+    height: 36px;
+    list-style: none;   
+    background-color:black;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    display: flex;
+    
+}
+li{
+    border-right: 2px solid rgb(126, 126, 126);
+    line-height: 34px;
+ 
+}
+li a{
+    display: block;
+    padding: 0px 28px;
+    color: white;
+    text-decoration: yellowgreen;
+}
+
+
+a:hover{
+    background-color: gainsboro;
+}
+
+
+
+/*Section*/
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 11 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+
+}
+#home::before{
+    content: "";
+
+    background:url('back2.jpg');
+    
+    position: absolute;
+    /* position: relative; */
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+    opacity: 0.8;
+}
+
+#home h2{
+    text-align: center;
+    margin-top: 11px;
+    font-size: 4rem;
+    color: rgb(233, 24, 24);
+    font-family: 'Baloo 2', cursive;
+}
+#home p{
+    text-align: center;
+    margin-top: 91px;
+    color: black;
+    font-size: 3rem;
+}
+
+
+/*Services*/
+#services{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 6px;
+}
+#services .container{
+    text-align: center;
+    margin-bottom: 136px;
+    font-family: 'Baloo 2', cursive;
+    
+}
+#services .box{
+    border: 12px solid rgb(223, 39, 39);
+    padding: 37px;
+    margin: 3px 13px;
+    background: whitesmoke;
+    border-radius: 68px;
+   
+  
+  }
+  #services .box img{
+    height: 156px;
+    display: block;
+    margin: auto;  
+  } 
+  #services .box .mukul1{
+      text-align: center;
+      font-size: 2em;
+  }
+ 
+.btn{
+   position: relative;
+   
+}
+.btns{
+    margin: 0;
+    position: absolute;
+    top: 22px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  
+  
+}
+
+.center{
+    text-align: center;
+    background-color: whitesmoke;
+    font-size: 2rem;
+}
